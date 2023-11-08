@@ -1,0 +1,16 @@
+AddBank BranchBank DSKBank
+AddBank CentralBank Unicredit
+AddBank CentralBank Fibank
+AddLoan StudentLoan
+AddLoan MortgageLoan
+AddLoan MortgageLoan
+ReturnedLoan DSKBank StudentLoan
+ReturnedLoan Unicredit StudentLoan
+ReturnedLoan DSKBank MortgageLoan
+ReturnedLoan Fibank MortgageLoan
+AddClient DSKBank Student Sarah 10A2AFBBAG 5421.5
+AddClient DSKBank Student Tom 54AABAG75 2341.1
+AddClient Fibank Adult Peter 6GSFAAZZ12 125054
+FinalCalculation DSKBank
+Statistics
+End

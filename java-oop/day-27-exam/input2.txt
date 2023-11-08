@@ -1,0 +1,13 @@
+AddBank BranchBank DSKBank
+AddBank CentralBank Fibank
+AddLoan StudentLoan
+AddLoan MortgageLoan
+AddLoan MortgageLoan
+ReturnedLoan DSKBank StudentLoan
+ReturnedLoan Fibank StudentLoan
+ReturnedLoan Fibank MortgageLoan
+AddClient Fibank Student Maria 54TAF433 346.7
+AddClient Fibank Adult Peter 65GTTHA134 5643.1
+FinalCalculation Fibank
+Statistics
+End
